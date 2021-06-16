@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta> 
+  <title> HTML calculator </title> 
+  <link rel="stylesheet" type="text/css" href="HTMLCalculator.css"> 
+ </head> 
+ <body> 
+  <div id="container"> 
+   <form> 
+    <p> 
+     <marquee scrollamount="no">
+       This is a simple CALCULATOR. 
+     </marquee></p> 
+    <input id="_1st" type="number"> 
+    <select id="selector"> <option>--select--</option> <option> + </option> <option> - </option> <option> x </option> <option> / </option> <option> ^ </option> </select> 
+    <input id="_2nd" type="number"> 
+    <input id="clicker" type="button" value="=" onclick="calc2()"> 
+    <input id="output" disabled> 
+    <input type="reset" value="AC"> 
+   </form> 
+  </div> 
+  <script src="HTMLCalculator.js"></script> 
+ </body>
+</html>
